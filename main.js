@@ -1,3 +1,81 @@
+/* 
+let animal1 = {
+  tipo : "perro",
+  nombre : "Firualis",
+  edad : 4,
+}
+
+//Modificar - Agregar
+
+animal1.edad = 5;
+animal1.raza = "french";
+ */
+//Constructores
+/* 
+let producto1 = {
+  nombre: "Iphone",
+  precio: 800,
+  stock: 20,
+};
+
+let producto2 = {
+  nombre : "tv",
+  precio : 1000,
+  stock : 15,
+}
+
+let producto3 = {
+  nombre : "Ipad",
+  precio : 200,
+  stock : 40,
+}
+
+let producto4 = {
+  nombre : "Computador",
+  precio : 900,
+  stock : 10,
+}
+
+function Animal (tipo, nombre, edad ) {
+  this.tipo = tipo;
+  this.nombre = nombre;
+  this.edad = edad;
+} 
+
+
+const animal1 = new Animal ("perro", "firulais", 4);
+console.log (animal1);
+const animal2 = new Animal ("gato", "mishi", 6);
+console.log (animal2);
+
+//Ejercicio
+
+function NewUser (name, email, password) {
+  this.name = name;
+  this.email = email;
+  this.password = password;
+}
+
+let user1 = new NewUser ("Farid", "Farid@gmail.com", "1313");
+let user2 = new NewUser ("Santiago", null, "123456");
+let user3 = new NewUser ("Leila", "Lei@hotmail.com", "abcde");
+
+function tieneEmail (user) {
+  if (user.email) {
+    return user.email;
+  } else {
+    return false;
+  }
+}
+
+console.log(tieneEmail(user1));
+console.log(tieneEmail(user2));
+console.log(tieneEmail(user3)); */
+
+
+
+
+
 //Una empresa tiene 4 vendedores. Cada vendedor cuando realiza una venta emite una factura. Se procesan los datos hasta que se ingresa un numero de factura igual a 0. Los datos ingresados de la factura son: Numero de factura, numero de vendedor, monto de la factura. Se desea calcular e informar:
 //A. Cuantas facturas emitio cada vendedor
 //B. Total facturado por cada vendedor y el total final acumulado de los vendedores.
@@ -74,3 +152,4 @@ let ventas_individuales = prompt("?Desea ver lo vendido por cada vendedor y las 
 mostrar(ventas_individuales);
 
 
+ 
