@@ -74,7 +74,7 @@ console.log(tieneEmail(user3)); */
 
 
 
-
+/* 
 
 //Una empresa tiene 4 vendedores. Cada vendedor cuando realiza una venta emite una factura. Se procesan los datos hasta que se ingresa un numero de factura igual a 0. Los datos ingresados de la factura son: Numero de factura, numero de vendedor, monto de la factura. Se desea calcular e informar:
 //A. Cuantas facturas emitio cada vendedor
@@ -152,4 +152,4 @@ let ventas_individuales = prompt("?Desea ver lo vendido por cada vendedor y las 
 mostrar(ventas_individuales);
 
 
- 
+  */
